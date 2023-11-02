@@ -170,3 +170,24 @@ console.log(result); */
 }
 const result =isEventNumber(7)
 console.log(result); */
+
+// function monToKagi(mon) {
+//     const kagi = mon * 40
+//     return kagi;
+// }
+// const result =monToKagi(2)
+// console.log(result);
+
+// function celsiusToFahrenheit(celsius) {
+//    let faherenhight = (celsius * 9/5) + 32
+//     return faherenhight;
+// }
+// let result =celsiusToFahrenheit(2)
+// console.log(result);
+
+function faherenToCels(fahern) {
+  let celsius = (fahern - 32) * 5/9
+  return celsius;
+}
+let result =faherenToCels(2)
+console.log(result);
